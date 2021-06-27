@@ -1,0 +1,21 @@
+button {
+    background-color: transparent;
+    background-image: url("../images/entrar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    transform: scale(1);
+    transition: .3s transform;
+    margin-top: 10px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button:active {
+    transform: scale(1);
+}

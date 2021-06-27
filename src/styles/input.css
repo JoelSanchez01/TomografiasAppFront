@@ -1,0 +1,46 @@
+.boxInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    transform: scale(1);
+    transition: 500ms transform;
+}
+
+.boxInput:hover {
+    transform: scale(1.1);
+}
+
+
+
+.input {
+    font-size: 20px;
+    background-color: #04ADBF;
+    color: white;
+    border: none;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px 3px;
+
+
+}
+
+
+hr {
+    position: relative;
+    top: -25px;
+    width: 80%;
+    border: none;
+    border-bottom: .5px solid white;
+    width: 80%;
+}
+
+.input::placeholder {
+
+    color: white;
+}
