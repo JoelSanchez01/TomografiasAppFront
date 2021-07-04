@@ -10,8 +10,8 @@ class Formulario extends React.Component {
         <span className="logo"></span>
         <Input type="text" placeHolder="Usuario" />
         <Input type="password" placeHolder="Contrasena" />
-
         <ButtonLog />
+        <a href="#">Registrarse</a>
       </div>
     );
   }

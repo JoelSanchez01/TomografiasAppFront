@@ -8,14 +8,31 @@
 }
 
 
-.logo{
+.logo {
     margin-bottom: 50px;
     width: 115px;
     height: 110px;
     background-image: url('../images/Logo.svg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    
 }
 
+a {
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .5s transform;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+a:active {
+    transform: scale(1);
+}
