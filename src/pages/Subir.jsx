@@ -9,7 +9,7 @@ class Subir extends React.Component {
       <div className="Container">
         <h2>Seleccione Una Imagen</h2>
         <InputFile />
-        <ButtonLog />
+        <ButtonLog enlace="/" />
       </div>
     );
   }

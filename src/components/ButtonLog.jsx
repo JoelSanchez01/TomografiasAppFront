@@ -4,7 +4,12 @@ import "../styles/ButtonLog.css";
 
 class ButtonLog extends React.Component {
   render() {
-    return <button type="button"></button>;
+    const { enlace } = this.props;
+    return (
+      <Link to={enlace}>
+        <button type="button"></button>
+      </Link>
+    );
   }
 }
 

@@ -33,11 +33,10 @@
 
 hr {
     position: relative;
-    top: -25px;
-    width: 80%;
+    top: -17px;
     border: none;
     border-bottom: .5px solid white;
-    width: 80%;
+    width: 79%;
 }
 
 .input::placeholder {

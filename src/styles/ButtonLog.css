@@ -9,7 +9,7 @@ button {
     outline: none;
     transform: scale(1);
     transition: .3s transform;
-    margin-top: 10px;
+
 }
 
 button:hover {
