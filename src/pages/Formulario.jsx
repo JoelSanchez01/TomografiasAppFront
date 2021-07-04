@@ -1,7 +1,7 @@
 import React from "react";
-import Input from "./Input";
+import Input from "../components/Input";
 import "../styles/Formulario.css";
-import ButtonLog from "./ButtonLog";
+import ButtonLog from "../components/ButtonLog";
 
 class Formulario extends React.Component {
   render() {
