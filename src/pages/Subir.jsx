@@ -7,7 +7,7 @@ class Subir extends React.Component {
   render() {
     return (
       <div className="Container">
-        <h2>Seleccione Una Imagen</h2>
+        <h3>Seleccione Una Imagen</h3>
         <InputFile />
         <ButtonLog enlace="/" />
       </div>
