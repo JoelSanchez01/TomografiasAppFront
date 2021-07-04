@@ -11,7 +11,9 @@ class Formulario extends React.Component {
         <Input type="text" placeHolder="Usuario" />
         <Input type="password" placeHolder="Contrasena" />
         <ButtonLog enlace="/subir" />
-        <a href="#">Registrarse</a>
+        <a className="enlace" href="#">
+          Registrarse
+        </a>
       </div>
     );
   }
